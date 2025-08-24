@@ -1,0 +1,305 @@
+.root{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header{
+    background-color: rgba(4, 99, 195, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+.project{
+    background-image: url('img/bg-hero.png');
+    height: 58vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(4, 99, 195);
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+.logo a{
+    color: white;
+    
+    text-decoration: none;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo span{
+    color: black;
+    font-size: 15px;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.67);
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a:hover{
+    color: white;
+}
+.navbar{
+    gap: 2em;
+    display: flex;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.67);
+    width: 4.1em;
+    font-size: 1.3em;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+.dropdown:hover .dropdown-content {
+     display: block;
+}
+.navbar a i{
+    color: white;
+}
+
+.ph1{
+    font-size: 2em;
+}
+.ph2 img{
+    height: 18em;
+    width: 23em;
+}
+
+.project_h{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.60em;
+}
+.project_h a{
+    color: white;
+    text-decoration: none;
+}
+
+.project_body{
+    margin-top: 5em;
+    padding-top: 1em;
+    padding-bottom: 5em;
+}
+.project_body button{
+    border: 1px solid rgb(208, 203, 203);
+    font-weight: bold;
+    color: rgb(6, 177, 235);
+    background-color: white;
+    padding: 1em 2em;
+    border-radius: 2em;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+.project_body h1{
+    font-weight: bold;
+    font-size: 3em;
+    max-width: 10em;
+    text-align: center;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+}
+
+.p1 {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1) rgba(0, 0, 255, 0.1));
+  border-radius: 2em;
+  
+}
+.p1 img:hover{
+    transform: scale(1.1);
+}
+
+.p1 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.p11 {
+  position: absolute;
+  bottom: 2px;
+  left: 0px;
+  color: white;
+  height: 100%;
+  padding: 20px 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 255, 0.6));
+  max-width: 100%;
+  
+}
+
+.p11 h6 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 12em;
+  padding: 0.5em;
+  width: 70%;
+  border-radius: 5em;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+
+.p11 h4 {
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+.p11 i {
+  font-size: 40px;
+  color: aqua; 
+}
+.p11 i:hover{
+    font-size: 40px;
+    color: white; 
+}
+
+
+
+.newsLetter{
+    margin-top: 58em;
+    background-image: url('img/bg-hero.png');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(4, 99, 195);
+    display: grid;
+    height: 50vh;
+    grid-template-columns: 2fr 3fr;
+}
+.news1{
+    align-content: center;
+    
+}
+.news1 img{
+    width: 35em;
+}
+.news2{
+    padding-top: 5em;
+}
+.news2 h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+.news2 button{
+    border: 1px white solid;
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 85, 170, 0);
+    padding: 0.7em 1.5em;
+    border-radius: 15em;
+}
+
+.email {
+  position: relative;
+  width: 50em;
+}
+
+
+.email input {
+  width: 100%;
+  padding: 15px 4px 15px 20px;
+  border: none;
+  border-radius: 28px;
+  background-color: white;
+  font-size: 20px;
+  outline: none;
+}
+.email i {
+  position: absolute;
+  right: 1px;
+  top: 30%;
+  color: rgb(4, 99, 195);
+  font-size: 25px;
+}
+
+
+
+
+.footer{
+    background-image: url('img/footer.png');
+    background-size: cover;
+    background-color: rgba(3, 4, 64, 0.889);
+    color: white;
+    height: 60vh;
+}
+.footer_top{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3em;
+    padding-top: 2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer_top .f1{
+    width: 200px;
+}
+.f1 p{
+    width: 14em;
+}
+.footer_mid{
+    background-color: rgb(51, 49, 49);
+    height: 0.2em;
+    margin: 2em 8em;
+
+}
+.footer_btm{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7em;
+    text-align: center;
+    padding-top: 2em;
+    padding:1em  5em;
+}
+.footer ul , p{
+    color: rgb(180, 178, 178);
+}
+.footer_btm a{
+    color: white;
+    text-decoration: none;
+}
+.footer_btm a:hover{
+    color: blue;
+}
+
+

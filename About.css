@@ -1,0 +1,328 @@
+
+ header{
+    background-color: rgba(4, 99, 195, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding:0em 8em;
+}
+
+.logo a{
+    color: white;
+    
+    text-decoration: none;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo span{
+    color: black;
+    font-size: 15px;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.67);
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a:hover{
+    color: white;
+}
+.navbar{
+    gap: 2em;
+    display: flex;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.67);
+    width: 4.1em;
+    font-size: 1.3em;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+.dropdown:hover .dropdown-content {
+     display: block;
+}
+.navbar a i{
+    color: white;
+}
+
+
+.contactus{
+    background-image: url('img/bg-hero.png');
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(4, 99, 195);
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+
+
+.ch1{
+    font-size: 2em;
+    padding-top: 1.5em;
+}
+.ch2 img{
+    height: 20em;
+    width: 25em;
+    padding-top: 1.9em;
+}
+.contactus{
+    display: block;
+}
+.contact_h{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.contact_h a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* about */
+
+.Aboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+.i{
+    width: 50%;
+    height: 100%;
+    background-image: url('bg-about-img.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    height: 500px;
+}
+.i .image1{
+    position: relative;
+    top: 20px;
+    padding: 0px;
+    
+}
+.i .image2{
+    position: absolute;
+    top:41.97em;
+
+   
+}
+.child button{
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 50px;
+}
+.ch{
+    display: flex;
+    gap: 90px;
+}
+.ch i{
+    color:blue;
+}
+.pr{
+    display: flex;
+    gap: 55px;
+    margin-top: 20px;
+}
+.pr i{
+    color:blue;
+}
+.child h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.child p{
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.child{
+    padding-right: 60px;
+}
+.in{
+    display: flex;
+    gap: 30px;
+}
+.br{
+    margin-top: 50px;
+    gap: 30px;
+    display: flex;
+    
+}
+.br .ii{
+    border:solid 1px black;
+    border-radius: 50%;
+    padding: 10px;
+}
+button {
+    cursor: pointer;
+}
+.br .ii:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newsLetter{
+    background-image: url('img/bg-hero.png');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(4, 99, 195);
+    display: grid;
+    height: 50vh;
+    grid-template-columns: 2fr 3fr;
+}
+.news1{
+    align-content: center;
+    
+}
+.news1 img{
+    width: 35em;
+}
+.news2{
+    padding-top: 5em;
+}
+.news2 h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+.news2 button{
+    border: 1px white solid;
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 85, 170, 0);
+    padding: 0.7em 1.5em;
+    border-radius: 15em;
+}
+
+.email {
+  position: relative;
+  width: 50em;
+}
+
+
+.email input {
+  width: 100%;
+  padding: 15px 4px 15px 20px;
+  border: none;
+  border-radius: 28px;
+  background-color: white;
+  font-size: 20px;
+  outline: none;
+}
+.email i {
+  position: absolute;
+  right: 1px;
+  top: 30%;
+  color: rgb(4, 99, 195);
+  font-size: 25px;
+}
+.footer{
+    background-image: url('img/footer.png');
+    background-size: cover;
+    background-color: rgba(3, 4, 64, 0.889);
+    color: white;
+    height: 60vh;
+}
+.footer_top{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3em;
+    padding-top: 2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer_top .f1{
+    width: 200px;
+}
+.f1 p{
+    width: 14em;
+}
+.footer_mid{
+    background-color: rgb(51, 49, 49);
+    height: 0.2em;
+    margin: 2em 8em;
+
+}
+.footer_btm{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7em;
+    text-align: center;
+    padding-top: 2em;
+    padding:1em  5em;
+}
+.footer ul , p{
+    color: rgb(180, 178, 178);
+}
+.footer_btm a{
+    color: white;
+    text-decoration: none;
+}
+.footer_btm a:hover{
+    color: blue;
+}

@@ -1,0 +1,272 @@
+
+
+ header{
+    background-color: rgba(4, 99, 195, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding:0em 8em;
+}
+
+.logo a{
+    color: white;
+    
+    text-decoration: none;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo span{
+    color: black;
+    font-size: 15px;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.67);
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a:hover{
+    color: white;
+}
+.navbar{
+    gap: 2em;
+    display: flex;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.67);
+    width: 4.1em;
+    font-size: 1.3em;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+.dropdown:hover .dropdown-content {
+     display: block;
+}
+.navbar a i{
+    color: white;
+}
+
+
+.contactus{
+    background-image: url('img/bg-hero.png');
+    height: 47vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(4, 99, 195);
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+.ch1{
+    font-size: 3em;
+    padding-top: 1em;
+}
+.ch2 img{
+    height: 20em;
+    width: 25em;
+    padding-top: 2.69em;
+}
+.contactus{
+    display: block;
+}
+.contact_h{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.contact_h a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Faqs{
+    text-align: center;
+    padding-top: 3em;
+}
+
+.Faqs button{
+    color: blue;
+    background-color: white;
+    border: 0.2px solid;
+    font-size: 1.2em;
+    padding: 1em 1.5em;
+    border-radius: 2em;
+    
+}
+.faqs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2em;
+    padding: 0px 8em;
+    margin-bottom: 3em;
+}
+.Faqs h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+.faqs summary{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    border: solid 0.1px;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: whitesmoke;
+}
+.faqs p{
+    font-size: 1.5em;
+}
+
+
+
+
+
+.newsLetter{
+    background-image: url('img/bg-hero.png');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(4, 99, 195);
+    display: grid;
+    height: 50vh;
+    grid-template-columns: 2fr 3fr;
+}
+.news1{
+    align-content: center;
+    
+}
+.news1 img{
+    width: 35em;
+}
+.news2{
+    padding-top: 5em;
+}
+.news2 h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+.news2 button{
+    border: 1px white solid;
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 85, 170, 0);
+    padding: 0.7em 1.5em;
+    border-radius: 15em;
+}
+
+.email {
+  position: relative;
+  width: 50em;
+}
+
+
+.email input {
+  width: 100%;
+  padding: 15px 4px 15px 20px;
+  border: none;
+  border-radius: 28px;
+  background-color: white;
+  font-size: 20px;
+  outline: none;
+}
+.email i {
+  position: absolute;
+  right: 1px;
+  top: 30%;
+  color: rgb(4, 99, 195);
+  font-size: 25px;
+}
+.footer{
+    background-image: url('img/footer.png');
+    background-size: cover;
+    background-color: rgba(3, 4, 64, 0.889);
+    color: white;
+    height: 60vh;
+}
+.footer_top{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3em;
+    padding-top: 2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer_top .f1{
+    width: 200px;
+}
+.f1 p{
+    width: 14em;
+}
+.footer_mid{
+    background-color: rgb(51, 49, 49);
+    height: 0.2em;
+    margin: 2em 8em;
+
+}
+.footer_btm{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7em;
+    text-align: center;
+    padding-top: 2em;
+    padding:1em  5em;
+}
+.footer ul , p{
+    color: rgb(180, 178, 178);
+}
+.footer_btm a{
+    color: white;
+    text-decoration: none;
+}
+.footer_btm a:hover{
+    color: blue;
+}
+
+
+
+
+
